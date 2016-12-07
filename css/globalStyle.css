@@ -1,0 +1,1758 @@
+/*全局预定义样式开始*/
+body, h1, h2, h3, h4, p, img, ul, ol, li ,hr ,iframe{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #999999;
+    font-family: "宋体 Arial ";
+    font-size: 12px;
+}
+
+ul, li, li {
+    list-style: none;
+}
+
+a:link,a:visited {
+    text-decoration: none;
+    color: #888;
+}
+
+a:hover{
+    color:#23AC38;
+}
+
+/*全局预定义样式结束*/
+
+/*公用类样式开始*/
+.floatL {
+    float: left;
+}
+
+.floatR {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.gap10 {
+    height: 10px;
+    clear: both;
+}
+
+.gap20 {
+    height: 20px;
+    clear: both;
+}
+
+.gap2 {
+    height: 2px;
+    clear: both;
+}
+
+.marginL{
+    margin-left:10px;
+}
+/*公用类样式结束*/
+
+/*简单头部样式开始*/
+.logo-content {
+    height: 90px;
+    /*background: url("../images/logo.png") no-repeat top 25px left 85px;*/
+}
+
+.logo-content img{
+    padding:25px 85px;
+}
+/*简单头部样式结束*/
+
+/*复杂头部样式开始*/
+/*头部顶部样式开始*/
+.head-top{
+    height: 36px;
+    background-color: #363636;
+}
+
+.head-top .top-content{
+    width: 1240px;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 auto;
+}
+
+.head-top .top-content span a:link,.head-top .top-content span a:visited{
+    color: #BFBFBF;
+}
+
+.head-top .top-content span a:hover{
+    color: #269A38;
+}
+/*头部顶部样式结束*/
+
+/*头部主要内容开始*/
+.head-content{
+    width: 1240px;
+    line-height: 40px;
+    margin: 0 auto;
+}
+
+.head-content .con-top{
+    padding:40px 0;
+    height: 40px;
+}
+
+.head-content .con-top .con-top-cart{
+  /*  height: 40px;
+    width: 108px;
+    border: 1px solid #DDDDDD;
+    background: #F9F9F9 url("../images/icos.png") no-repeat top 13px left 20px;
+    padding-left: 50px; 
+    margin-left: 35px;*/
+}
+
+.head-content .con-top .con-top-cart a{
+    display: block;
+    color:#363636;
+    height: 40px;
+    width: 108px;
+    border: 1px solid #DDDDDD;
+    background: #F9F9F9 url("../images/icos.png") no-repeat top 13px left 20px;
+    padding-left: 50px; 
+    margin-left: 35px;
+}
+
+.head-content .con-top .con-top-cart a:hover{
+    color:#23AC38;
+}
+
+.head-content .con-top .con-top-cart a span{
+    color:#BFBFBF;
+}
+
+.head-content .con-top .con-top-search{
+    width: 538px;
+    height: 40px;
+    border: 1px solid #23AC38;
+}
+
+.head-content .con-top .con-top-search .submit{
+    width:70px;
+    height: 40px;
+    background:#23AC38;
+    border:none;
+    color:#FFFFFF;
+    font-size: 16px;
+}
+
+.head-content .con-top .con-top-search input:first-child{
+    width:450px;
+    margin-left:10px;
+    border:none; 
+}
+
+.head-content .con-bottom div:first-child{
+    width: 210px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background:#363636;
+}
+
+.head-content .con-bottom div:first-child a,.head-content .con-bottom div:first-child a:hover{
+    display: block;
+    width: 210px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background:#363636;
+    color:#FFFFFF;
+    font-size: 14px;
+}
+
+.head-content .con-bottom div:first-child a:hover{
+    background: #666666;
+}
+
+.head-content .con-bottom ul li{
+    padding-left:30px; 
+    float: left;
+    font-size: 14px;
+}
+
+.head-content .con-bottom ul li a{
+    color:#323334;
+}
+
+.head-content .con-bottom ul li a:hover{
+    color:#23AC38;
+}
+/*头部主要内容结束*/
+
+.head-line{
+    width: 100%;
+    border-bottom:1px solid #363636; 
+}
+/*复杂头部样式结束
+
+/*页脚样式开始*/
+/*横幅模块开始*/
+.footer-content .bannerBox {
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #ccc;
+    height: 60px;
+    padding: 16px 0;
+}
+
+.footer-content .bannerBox .banner {
+    margin: 0 auto;
+    width: 1054px;
+}
+
+.footer-content .bannerBox .banner .division {
+    height: 60px;
+    width: 1px;
+    border-left: 1px solid #ccc;
+}
+
+.footer-content .bannerBox .banner-item {
+    width: 350px;
+    height: 60px;
+    font-family: "微软雅黑";
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    color: #000000;
+    font-weight: bold;
+}
+
+.footer-content .bannerBox .banner-item span.round {
+    display: block;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #23ac38;
+    border-radius: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #23ac38;
+    position: absolute;
+    top: 12px;
+    left: 65px;
+}
+
+/*横幅模块结束*/
+
+/*链接模块开始*/
+.footer-content .linkBox {
+    padding: 30px 0px 30px 55px;
+    width: 1200px;
+}
+
+.footer-content .linkBox .link-item {
+    width: 195px;
+}
+
+.footer-content .linkBox .link-item .link-title {
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #000;
+}
+
+.footer-content .linkBox .link-item ul li {
+    height: 30px;
+    line-height: 30px;
+}
+
+.footer-content .linkBox .link-item .number {
+    color: #23ac38;
+    font-size: 24px;
+}
+
+.footer-content .linkBox .link-item span {
+    display: block;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    color: #777;
+}
+
+/*链接模块结束*/
+
+/*版权模块开始*/
+.footer-content .copyright {
+    border-top: 1px solid #ccc;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+
+/*版权模块结束*/
+
+/*页脚样式结束*/
+
+
+/*登录模块开始*/
+.login-content {
+    background: #7BB707;
+    height: 650px;
+    background: url("../images/loginImages/uc-login-bg.png") center;
+    position: relative;
+}
+
+.login-content .login {
+    height: 400px;
+    width: 295px;
+    position: absolute;
+    right: 85px;
+    top: 120px;
+    background: #F0F9FF;
+    padding: 0px 25px;
+}
+
+/*标题开始*/
+.login-content .login .title h2 {
+    height: 115px;
+    line-height: 115px;
+    font-size: 20px;
+    color: #666666;
+}
+/*标题结束*/
+
+/*登录表单开始*/
+.login-content .login .loginForm .formInput {
+    height: 20px;
+    width: 220px;
+    border: 2px solid #cccccc;
+    border-radius:5px;
+    padding: 15px 35px;
+}
+
+.login-content .login .loginForm .formInput input {
+    width: 220px;
+    height: 20px;
+    line-height: 20px;
+    border: none;
+}
+
+.login-content .login .loginForm .userName {
+    background: #FFFFFF url("../images/loginImages/userName.png") no-repeat top 16px left 8px;
+}
+
+.login-content .login .loginForm .password {
+    background: #FFFFFF url("../images/loginImages/password.png") no-repeat top 16px left 8px;
+}
+
+.login-content .login .loginForm .loginButton .findPWD {
+    height: 60px;
+    line-height: 60px;
+}
+
+.login-content .login .loginForm .loginButton .findPWD a {
+    color: #999;
+    font-size: 14px;
+}
+
+.login-content .login .loginForm .loginButton input {
+    width: 295px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background: #22ac69;
+    color: #ffffff;
+    font-size: 16px;
+}
+/*登录表单结束*/
+/*登录模块结束
+
+/*注册模块样式开始*/
+.regi-content {
+    padding: 70px 0px 50px;
+    background: #F5F5F5;
+}
+
+.regi-content .title {
+    margin: 0 auto;
+    width: 700px;
+    height: 70px;
+    line-height: 70px;
+    background: #FFFFFF;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+}
+
+.regi-content .registerForm {
+    margin: 0 auto;
+    width: 700px;
+    background: #FFFFFF;
+
+}
+
+.regi-content .registerForm .formBox {
+    width: 380px;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.regi-content .registerForm .formBox .formInput {
+    height: 20px;
+    width: 306px;
+    border: 2px solid #ddd;
+    padding: 15px 35px;
+    border-radius: 4px;
+}
+
+.regi-content .registerForm .formBox .formInput input {
+    width: 300px;
+    height: 20px;
+    line-height: 20px;
+    border: none;
+}
+
+.regi-content .registerForm .formBox .userName {
+    background: #FFFFFF url("../images/loginImages/userName.png") no-repeat top 16px left 8px;
+}
+
+.regi-content .registerForm .formBox .password {
+    background: #FFFFFF url("../images/loginImages/password.png") no-repeat top 16px left 8px;
+}
+
+.regi-content .registerForm .formBox .authInput{
+    height: 20px;
+    width: 156px;
+    border: 2px solid #ddd;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.regi-content .registerForm .formBox .authInput input{
+    height: 20px;
+    line-height: 20px;
+    border: none;
+}
+
+.regi-content .registerForm .formBox .authImage{
+    width: 160px;
+    height: 50px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+.regi-content .registerForm .formBox .submit input {
+    width: 380px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background: #22ac69;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.regi-content .registerForm .formBox p {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+/*注册样式模块结束*/
+
+/*主页样式开始*/
+.index-content{
+    
+}
+
+.index-content .index-top{
+    width:1240px;
+    margin: 0 auto;
+}
+
+.index-content .index-top .index-nav{
+    width :210px;
+    background:#3f3f3f;
+    height: 372px;
+}
+
+.index-content .index-top .index-nav ul li a{
+    display: block;
+    width: 210px;
+    height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #363636;
+    line-height: 30px;
+    color:#ffffff;
+}
+
+.index-content .index-top .index-nav ul li a:hover{
+    background:#666666;
+}
+
+.index-content .index-top .index-imageBox{
+    padding:12px 0px 0px 20px; 
+    width: 1000px;
+    height: 360px;
+}
+
+.index-content .index-top .index-imageBox a{
+    display: block;
+    width: 1000px;
+    height: 360px;
+    background: url('../images/t019e4c461b148d417d.jpg') center;
+}
+
+.index-content .index-goods-box{
+    background:#F8F5F0;
+}
+
+.index-content .index-goods-box .goods{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.index-content .index-goods-box .goods .goods2 div{
+    width :495px;
+    height: 250px;
+    background:#ffffff;
+}
+
+.index-content .index-goods-box .goods .goods2 div img{
+    margin-top: 40px;
+}
+
+.index-content .index-goods-box .goods .goods2 div span{
+    display: block;
+    width:290px;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.index-content .index-goods-box .goods .goods2 div span:first-child{
+    color:#000;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.index-content .index-goods-box .goods .goods2 div span:nth-child(3){
+    padding-top: 70px;
+    font-size: 25px;
+    color: #EB473B;
+}
+
+.index-content .index-goods-box .goods .goods2 div a.buy{
+    display: block;
+    width: 125px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    border:1px solid #EB473B;
+    color:#EB473B;
+}
+
+.index-content .index-goods-box .goods .goods2 div a.buy:hover{
+    background:#EB473B;
+    color:#ffffff;
+}
+
+.index-content .index-goods-box .goods .goods3 div{
+    width :326.6px;
+    height: 170px;
+    background:#ffffff;
+}
+
+.index-content .index-goods-box .goods .goods4 div{
+    width :242.5px;
+    background:#ffffff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.index-content .index-goods-box .goods .goods4 div img{
+    width: 132px;
+    height: 132px;
+    padding: 10px 55px;
+}
+
+.index-content .index-goods-box .goods .goods4 div p:nth-child(2){
+    color:#000000;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.index-content .index-goods-box .goods .goods4 div p:nth-child(3){
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.index-content .index-goods-box .goods .goods4 div p:nth-child(4){
+    font-size: 25px;
+    color: #EB473B;
+}
+
+.index-content .index-goods-box .goods .goods4 div a.buy{
+    display: block;
+    width: 125px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    border:1px solid #EB473B;
+    color:#EB473B;
+    margin-left:55px; 
+}
+
+.index-content .index-goods-box .goods .goods4 div a.buy:hover{
+    background:#EB473B;
+    color:#ffffff;
+}
+/*主页样式结束*/
+
+
+/*购物车样式开始*/
+.cart-content{
+    width: 1240px;
+    margin: 0 auto;
+    border:1px solid #DDDDDD;
+}
+
+.cart-content .title{
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #000;
+    /*font-weight: bold;*/
+    border-bottom: 1px solid #ddd;
+    padding-left: 20px;
+}
+
+.cart-content .goods{
+    width: 1210px;
+    margin: 20px auto;
+}
+
+.cart-content .goods table{
+    border: 1px solid #DDDDDD;
+}
+
+.cart-content .goods table tr:first-child{
+    width: 1210px;
+    height: 20px;
+    line-height: 20px;
+    background:#82C92F;
+    color: #ffffff;
+    border:none;
+}
+
+.cart-content .goods table tr:first-child td{
+    padding-left: 10px;
+}
+
+.cart-content .goods table td{
+    padding:10px 0px;   
+}
+
+.cart-content .goods table td:first-child{
+    width: 530px;
+    padding-left: 20px;
+}
+
+.cart-content .goods table td:first-child img{
+    width: 60px;
+}
+
+.cart-content .goods table td:nth-child(2){
+    width: 175px;
+}
+
+.cart-content .goods table td:nth-child(3){
+    width: 145px;
+}
+
+.cart-content .goods table td:nth-child(3) span{
+    display: block;
+    width: 30px;
+    text-align: center;
+}
+
+.cart-content .goods table td:nth-child(3) a{
+    margin: 0px;
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    width: 30px;
+    text-align: center;
+    border:1px solid #FF784F;
+    color: #FF784F;
+    border-radius: 2px;
+}
+.cart-content .goods table td:nth-child(3) a:hover{
+    background-color: #FF784F;
+    color: #FFFFFF;
+}
+
+.cart-content .goods table td:nth-child(4){
+    width: 170px;
+}
+.cart-content .goods table td:nth-child(5){
+    width: 170px;
+}
+
+.cart-content .goods table td a{
+    margin-top:25px; 
+}
+
+.cart-content .goods table td a:hover{
+    color:#669933;
+}
+
+.cart-content .goods table td .bleak{
+    color:#000;
+    font-size: 16px;
+}
+
+.cart-content .goods table td .sum{
+    color: #FF7800;
+    font-size: 18px;
+}
+
+.cart-content .allsum{
+/*    position: relative;
+    left: 940px;*/
+    padding-top: 50px;
+}
+
+.cart-content .allsum p{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: end;
+}
+
+.cart-content .allsum p span{
+    color:#FF8301;
+    font-size: 30px;
+}
+
+.cart-content .allsum a{
+    display: block;
+    width: 138px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    float: left;
+    border:1px solid #EFEFEF;
+    font-size: 18px;
+}
+
+.cart-content .allsum a:nth-child(4){
+    background:#F6F6F6;
+    color:#6F6F6F;
+    border-radius: 5px;
+}
+
+.cart-content .allsum a:nth-child(5){
+    background:#FF8301;
+    color:#ffffff;
+    border-radius: 5px;
+}
+/*购物车样式结束*/
+
+
+/*个人中心样式开始*/
+.my{
+    background-color: #F2F2F2;
+}
+
+.my .my-content{
+    width: 1240px;
+    margin: 0 auto
+}
+
+.my .my-content .my-left{
+    width: 155px;
+}
+
+.my .my-content .my-left .tx{
+    width: 155px;
+    background: #FFFFFF;
+}
+
+.my .my-content .my-left .tx div{
+    padding: 0 36.5px;
+}
+
+.my .my-content .my-left .tx p{
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.my .my-content .my-left .box li{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.my .my-content .my-left .box li:first-child{
+    background-color: #82C92F;
+    color: #fff;
+}
+
+.my .my-content .my-left .box li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #000;
+}
+
+.my .my-content .my-left .box li a:hover{
+    background-color: #F8F8FA;
+    color: #82C92F;
+    border-left:1px solid #82C92F;
+}
+
+.my .my-content .my-right{
+    width: 1040px;
+    height: 500px;
+    background-color: #fff;
+    padding:10px;
+    border:none;
+}
+
+.my .my-content .my-right .title{
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    padding-left: 10px;
+    color:#82C92F;
+}
+
+.my .my-content .my-right .nav ul{
+    border-bottom:1px solid #E1E1E1;
+    height: 30px;
+}
+
+.my .my-content .my-right .nav ul li{
+    width: 100px;
+    padding-left: 10px;
+    float: left;
+    font-size: 14px;
+}
+
+.my .my-content .my-right .nav ul li a{
+    display: block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    color: #666666;
+}
+
+.my .my-content .my-right .nav ul li a:hover{
+    color:#669933;
+}
+
+.my .my-content .my-right .orders tr:first-child{
+    height: 40px;
+    line-height: 40px;
+    background-color: #82C92F;
+    color:#fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.my .my-content .my-right .orders td:first-child{
+    padding-left: 40px;
+    width:440px;
+}
+
+.my .my-content .my-right .orders td:nth-child(2){
+    width:110px;
+}
+
+.my .my-content .my-right .orders td:nth-child(3){
+    width:275px;
+}
+
+.my .my-content .my-right .orders td:nth-child(4){
+    width:195px;
+}
+/*个人中心样式结束*/
+
+/*个人订单样式开始*/
+
+.myorder-content .title{
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    padding-left: 10px;
+    color:#82C92F;
+}
+
+.myorder-content .nav ul{
+    border-bottom:1px solid #E1E1E1;
+    height: 30px;
+}
+
+.myorder-content .nav ul li{
+    width: 100px;
+    padding-left: 10px;
+    float: left;
+    font-size: 14px;
+}
+
+.myorder-content .nav ul li a{
+    display: block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    color: #666666;
+}
+
+.myorder-content .nav ul li a:hover{
+    color:#669933;
+}
+
+.myorder-content .orders tr:first-child{
+    height: 40px;
+    line-height: 40px;
+    background-color: #82C92F;
+    color:#fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.myorder-content .orders td:first-child{
+    padding-left: 40px;
+    width:590px;
+}
+
+.myorder-content .orders td:nth-child(2){
+    width:110px;
+}
+
+.myorder-content .orders td:nth-child(3){
+    width:100px;
+}
+
+.myorder-content .orders td:nth-child(4){
+    width:195px;
+}
+
+.myorder-content .orders tr{
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+}
+
+.myorder-content .orders .page{
+    /*width: 1240px;*/
+    height: 32px;
+    line-height: 30px;
+    font-size: 25px;
+    text-align: center;
+    padding: 0 245px;
+}
+
+.myorder-content .orders .page ul{
+   width: 550px;
+}
+
+.myorder-content .orders .page ul li{
+    padding: 0 20px;
+    text-align: center;
+    width: 70px;
+    float: left;
+}
+
+.myorder-content .orders .page a{
+    display: block;
+    height: 30px;
+    width: 70px;
+    border:1px solid #888;
+}
+
+.myorder-content .orders .page a:hover{
+    background-color: #888;
+    color:#FFFFFF;
+}
+/*个人订单样式结束*/
+
+/*提交订单样式开始*/
+.order-content{
+    width: 1180px;
+    margin: 0 auto;
+    border:1px solid #DDDDDD;
+    border-top: 5px solid #82C92F;
+    border-radius: 3px;
+    padding:0 30px;
+}
+
+.order-content .box{
+    color:#000;
+    font-size: 14px;
+}
+
+.order-content .box span{
+    margin-left: 20px;
+
+}
+
+.order-content .box .title{
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #000;
+    border-bottom: 1px solid #E5E5E5;
+    padding-left: 10px;
+}
+
+.order-content .box .address{
+    width: 1100px;
+    margin: 0 auto;
+    border: 1px solid #E6E6E6;
+    background:#F2F2F2; 
+    padding:20px 10px;
+}
+
+.order-content .box .address ul li p:first-child{
+    color:#666666;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+}
+
+.order-content .box .address ul li p:first-child span{
+    color:#FF7300;
+}
+
+.order-content .box .address ul li p:nth-child(2){
+    padding: 0 10px;
+}
+
+.order-content .box .address ul li p input{
+    width: 228px;
+    height: 35px;
+    border:1px solid #CCCCCC;
+}
+
+.order-content .box .address ul li p textarea{
+    resize:none;
+    margin-left: 10px;
+}
+
+.order-content .box .address div input{
+    width: 85px;
+    height: 30px;
+    border:none;
+    color:#fff;
+    border-radius: 5px;
+}
+
+.order-content .box .address div input:first-child{
+    background:#82C92F;
+
+}
+
+.order-content .box .address div input:first-child:hover{
+    background:#23AC38;
+}
+
+.order-content .box .address div input:nth-child(2){
+    background:#A4A9AE;
+}
+
+.order-content .box .address div input:nth-child(2):hover{
+    background:#363636;
+}
+
+.order-content .box .address div a{
+    display: block;;
+    width: 85px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;;
+    border:none;
+    color:#fff;
+    border-radius: 5px;
+    background:#A4A9AE;
+}
+
+
+.order-content .box table{
+    border-bottom: 1px dotted #ccc;
+}
+
+.order-content .box table tr:first-child{
+    height: 38px;
+    line-height: 38px;
+    background-color: #82C92F;
+    color:#fff;
+    border:1px solid #82C92F;
+    border-radius: 5px 5px 0 0;
+}
+
+.order-content .box table tr:first-child td{
+    margin-top:10px; 
+    padding-left: 10px;
+}
+
+.order-content .box table td span{
+    margin: 0px;
+}
+
+.order-content .box table td:first-child{
+    width: 500px;
+}
+
+.order-content .box table td:first-child span{
+    margin: 25px 0px 0px 0px;
+}
+
+.order-content .box table td:nth-child(2){
+    width: 110px;
+}
+
+.order-content .box table td:nth-child(2) span{
+    font-size: 14px;
+    color: #363D37;
+}
+
+.order-content .box table td:nth-child(3){
+    width: 110px;
+}
+
+.order-content .box table td:nth-child(3) span{
+    font-size: 18px;
+    color: #000;
+}
+
+.order-content .box table td:nth-child(4){
+    width: 460px;
+}
+
+.order-content .box table td:nth-child(4) span{
+    font-size: 18px;
+    color: #FF8301;
+}
+
+
+.order-content .box table td img{
+    width: 75px;
+    border:1px solid #ccc;
+}
+
+.order-content .sum .number,.order-content .sum .botton{
+    width: 530px; 
+    padding:30px 0;
+    text-align: end;
+}
+
+.order-content .sum .number{
+    border-bottom: 1px dotted #ccc;
+    color:#000;
+    font-size: 18px;
+}
+
+.order-content .sum .number p{
+    padding: 5px;
+}
+
+.order-content .sum .number p:last-child{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.order-content .sum .number p span{
+    color:#FF8301;
+}
+
+.order-content .sum .number p:last-child span{
+    font-size: 34px;
+}
+
+.order-content .sum .botton input{
+    width: 140px;
+    height: 40px;
+    line-height: 38px;
+    background-color: #FF8200;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    border:none;
+}
+
+.order-content .sum .botton input:hover{
+    background-color: orange;
+}
+/*提交订单样式结束*/
+
+
+/*商品详情样式开始*/
+
+.goods-content{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.goods-content .top{
+    padding: 10px;
+}
+
+.goods-content .top .left{
+    width: 490px;
+    height: 600px;
+}
+
+.goods-content .top .left img:first-child{
+    width: 480px;
+}
+
+.goods-content .top .left img{
+    width: 100px;
+}
+
+.goods-content .top .left img:hover{
+    border:1px solid #ccc;
+}
+
+.goods-content .top .right{
+    width: 600px;
+    padding: 20px;
+}
+
+.goods-content .top .right p.title{
+    color:#000;
+    font-size: 24px;
+    height: 55px;
+    line-height: 55px;
+}
+
+.goods-content .top .right p:nth-child(4){
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    color:#FA5437;
+    background:#F8F8F8;
+    padding-left: 20px;
+}
+
+.goods-content .top .right form p:nth-child(2){
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.goods-content .top .right form p:nth-child(2) input{
+    height: 20px;
+    line-height: 20px;
+    width: 30px;
+    /*margin-top: 7px;*/
+    /*border:none;*/
+}
+
+.goods-content .top .right form p:nth-child(2) a{
+    display: block;
+    width: 30px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.goods-content .top .right p:last-child{
+    margin-top: 150px;
+}
+
+.goods-content .top .right p:last-child input{
+    display: block;
+    width: 240px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color:#fff;
+    background:#FD532D;
+    border-radius: 5px;
+    border:none;
+    font-size: 18px;
+}
+
+.goods-content .top .right p:last-child input:hover{
+    background:#FF694F;
+}
+
+.goods-content .top .right span{
+    font-size: 16px;
+}
+
+.goods-content .evaluation{
+    width: 1000px;
+    /*border:1px solid #FD532D;*/
+    margin: 0 auto;
+    background-color: #F8F5F0;
+}
+
+.goods-content .evaluation .title{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #FD532D;
+    font-size: 16px;
+    color :#FFFFFF;
+}
+
+.goods-content .evaluation .add{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.goods-content .evaluation .add textarea{
+    width: 778px;
+    height: 80px;
+    resize:none;
+    padding:10px;
+    font-size: 16px;
+}
+
+.goods-content .evaluation .add input:last-child{
+    width: 100px;
+    height: 40px;
+    background-color: #FD532D;
+    border-radius: 5px;
+    border:none;
+    color:#FFFFFF;
+    font-size: 14px;
+    margin-left:20px; 
+}
+
+.goods-content .evaluation .box{
+    width: 760px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.goods-content .evaluation .box .con{
+    width:630px;
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+.goods-content .evaluation .page{
+    padding: 0 275px; 
+}
+.goods-content .evaluation .page ul li{
+    float: left;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    padding: 0px 10px; 
+}
+
+.goods-content .evaluation .page ul li a{
+    display: block;
+    width: 68px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border:1px solid #888;
+
+}
+
+.goods-content .evaluation .page ul li a:hover{
+    color: #FFFFFF;
+    background-color: #888;
+}
+/*商品详情样式结束*/
+
+
+/*品牌页样式开始*/
+
+.brand-content{
+
+}
+
+.brand-content .top{
+    width: 1240px;
+    margin:0 auto;
+    color:#31373C;
+    font-size: 14px;
+}
+
+.brand-content .top div{
+    height: 46px;
+    line-height: 46px;
+}
+
+.brand-content .top .bor{
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.brand-content .top div:first-child{
+    font-size: 16px;
+}
+
+.brand-content .top div ul li{
+    width: 50px;
+    height: 46px;
+    line-height: 46px;
+    margin-left:20px; 
+}
+
+.brand-content .top div ul li a{
+    display: block;
+    /*width: 70px;*/
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.brand-content .show{
+    background-color: #F0F0F0;
+}
+
+.brand-content .show .box{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.brand-content .show .box .goods{
+    width: 220px;
+    padding: 10px;
+    background:#fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.brand-content .show .box .goods img{
+    width: 180px;
+    height: 180px;
+}
+
+.brand-content .show .box .goods p:nth-child(4){
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.brand-content .show .box .goods p:nth-child(4) a{
+    color:#31373C;  
+}
+
+.brand-content .show .box .goods p span{
+    color:#FA5437;
+}
+
+.brand-content .show .page{
+    /*width: 1240px;*/
+    height: 42px;
+    line-height: 40px;
+    font-size: 25px;
+    text-align: center;
+    padding: 0 355px;
+}
+
+.brand-content .show .page ul{
+   width: 550px;
+}
+
+.brand-content .show .page ul li{
+    padding: 0 20px;
+    text-align: center;
+    width: 70px;
+    float: left;
+}
+
+.brand-content .show .page a{
+    display: block;
+    height: 40px;
+    width: 70px;
+    border:1px solid #888;
+}
+
+.brand-content .show .page a:hover{
+    background-color: #888;
+    color:#FFFFFF;
+}
+/*品牌页样式结束
+
+/*个人信息样式开始*/
+.myinfo-content .title{
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    padding-left: 10px;
+    color:#82C92F;
+}
+
+.myinfo-content .info{
+    padding-left: 10px;
+    width: 320px;
+}
+
+.myinfo-content .info table {
+    width: 330px;
+    font-size: 20px;
+    padding-left: 10px; 
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+
+.myinfo-content .info table td{
+    /*border:1px solid #ccc;*/
+    height: 35px;
+    line-height: 35px;
+}
+
+.myinfo-content .info table td:first-child{
+    width: 100px;
+    text-align: right;
+}
+
+.myinfo-content .info table td:nth-child(2){
+    width: 212px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.myinfo-content .info table tr:first-child td{
+    text-align: center;
+    height: 100px;
+}
+
+.myinfo-content .info table tr td .filesubmit{
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 30px;
+    border-radius: 5px;
+    border:none;
+    color:#FFFFFF;
+    background-color: #23AC38;
+}
+
+.myinfo-content .info table tr td .filesubmit:hover{
+    background-color: #82C92F;
+}
+
+.myinfo-content .button {
+    width: 212px;
+    margin-left: 10px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px 58px;
+    text-align: center;
+}
+
+.myinfo-content .button a{
+    display: block;
+    width: 98px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border:1px solid red;
+    border-radius: 25px;
+    font-size: 16px;
+    color: red;
+}
+
+.myinfo-content .button a:hover{
+    background-color: red;
+    color: #FFF;
+}
+
+/*积分中心样式开始*/
+.myinfo-content .integral{
+    font-size: 20px;
+}
+/*积分中心样式结束*/
+
+
+/*修改密码样式开始*/
+.myinfo-content .edit-pwd{
+    padding-left: 10px; 
+}
+
+.myinfo-content .edit-pwd table{
+
+}
+
+.myinfo-content .edit-pwd table td{
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.myinfo-content .edit-pwd table td input{
+
+}
+
+.myinfo-content .edit-pwd table tr:last-child input{
+    width: 294px;
+    height: 40px;
+    line-height: 40px;
+    background: #EB473B;
+    border:none;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #fff;
+}
+/*修改密码样式结束*/
+
+/*修改信息样式开始*/
+.myinfo-content .edit-info{
+    padding-left: 10px;
+    width: 320px;
+}
+
+.myinfo-content .edit-info table {
+    width: 322px;
+    font-size: 20px;
+    padding-left: 10px; 
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+
+.myinfo-content .edit-info table td{
+    /*border:1px solid #ccc;*/
+    height: 40px;
+    line-height: 40px;
+}
+
+.myinfo-content .edit-info table td:first-child{
+    width: 100px;
+    text-align: right;
+}
+
+.myinfo-content .edit-info table td:nth-child(2){
+    width: 200px;
+    text-align: left;
+    padding-left: 10px;
+}
+.myinfo-content .button input{
+    width: 98px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border:1px solid #EB473B;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #EB473B;
+    background-color: #FFF;
+} 
+
+.myinfo-content .button input:hover{
+    background-color: #EB473B;
+    color: #FFF;
+}
+/*修改样式结束*/
+
+/*我的地址样式开始*/
+.myorder-content .address table{
+    border:1px solid #CCC;
+}
+
+.myorder-content .address tr:first-child{
+    height: 40px;
+    line-height: 40px;
+    background-color: #82C92F;
+    color:#fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.myorder-content .address td:first-child{
+    padding-left: 40px;
+    width:600px;
+}
+
+.myorder-content .address td:nth-child(2){
+    width:110px;
+}
+
+.myorder-content .address td:nth-child(3){
+    width:150px;
+}
+
+.myorder-content .address td:nth-child(4){
+    width:145px;
+}
+
+.myorder-content .address tr{
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+.myorder-content .address .newAdd{
+    font-size: 16px;
+    color: orange;
+}
+
+.myorder-content .address .newAdd:hover{
+    color:#5A74B7;
+}
+/*我的地址样式结束*/
+
+
+/*订单详情样式开始*/
+.order-info tr:first-child{
+    height: 40px;
+    line-height: 40px;
+    background-color: #82C92F;
+    color:#fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.order-info td:first-child{
+    padding-left: 40px;
+    width:590px;
+}
+
+.order-info td:nth-child(2){
+    width:110px;
+}
+
+.order-info td:nth-child(3){
+    width:100px;
+}
+
+.order-info td:nth-child(4){
+    width:195px;
+}
+
+.order-info tr{
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+}
+
+.order-info p{
+    font-size: 16px;
+}
+/*订单详情样式结束*/
+
+
+/*个人信息样式结束*/
